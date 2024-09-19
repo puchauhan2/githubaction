@@ -39,3 +39,6 @@ jobs:
         run: |
           echo ${{ secrets.AWS_ACCESS_KEY_ID }}
           echo ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          
+      - name: AWS CLI
+        run: aws help
